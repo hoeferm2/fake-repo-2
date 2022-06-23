@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navigate {
+    padding: 20px;
+    background-color: turquoise;
+    color: #ffffff;
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+    align-items: center;
+
+
+}
+
+.navigate img {
+    max-width: 80px;
+    max-height: 80px;
+
+}
+
+
+.navigate .nav-list {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    gap: 2rem;
+}
+
+.nav-list li {
+    color: whitesmoke;
+    font-size: x-large;
+
+}
+
+.banner img {
+    width: 100%;
+    max-height: 350px;
+    padding-bottom: 10px;
+    border-bottom: 10px solid steelblue;
+    border-top: 10px solid steelblue;
+    padding-top: 10px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+aside {
+    flex: 1;
+    background-color: darksalmon;
+    padding: 80px;
+    text-align: center;
+}
+
+
+
+
+.life-box {
+    flex: 4;
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.life-story {
+    font-size: x-large;
+}
+
+.products {
+    flex: 4;
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+}
+
+
+.card {
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    padding: 10px;
+    flex: 0 0 400px;
+    border-color: darkgoldenrod;
+}
+
+.card header {
+    padding: 20px;
+    text-align: center;
+    font-size: 20;
+
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: crimson
+}
+
+.card p {
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card:hover {
+    opacity: 0.5
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background: turquoise;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    gap: 3rem;
+}
+
+footer h2 {
+    font-size: 32px;
+}
+
+footer ul li {
+    font-size: 24px;
+}
+
+@media screen and (max-width: 768px) {
+
+    main,
+    nav,
+    footer {
+        flex-direction: column;
+    }
+}
