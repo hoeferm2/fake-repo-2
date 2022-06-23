@@ -1,34 +1,49 @@
-# module-2-challenge
+## Introduction
 
-Github repository https://github.com/hoeferm2/module-2-challenge
-Deploy Site 
-## Your Task
+For this project we were tasked with creating a portfolio website from scratch.
 
-The task presented to me for moduele 2 was to create a portfolio from scratch, additionally the page should be able to work on multiple screen sizes through flex boxes.
+## navigation
 
+The navigation bar contains
+    -a picture of the author
+    -author name
+    -3 working links that connect to the ares of the page
 
-## User Story
+![Navigation Bar](.\assets\screenshots\nav.png)
+## header/Banner image
 
+The header is a banner image.
 
+## Biography/About me
+The section header is an aside element. The content is a paragraph element. 
 
+## Projects (big picture)
 
-## Navigation
-The employer asked for a website with the developers name, a recent photo and links to the sections about them their work and how to contact. Provided below is a linked image showing the the initial navigation bar. 
+The large tile is in its own section. It consists of a section tag with a header and img nested in it. 
+The section header is an aside element.
 
-![header](./assets/screenshots/navigation.png)
+![Website-part-1](.\assets\screenshots\sections.PNG)
+![Website-part-2](.\assets\screenshots\tiles-footer.PNG)
 
-This navigation header includes a photo of the developer, the developer name and three working links to sections in the document (biography,projects,contact-info).
+## projects (small tiles)
 
-## main
-
-This section includes two main sections the biography and project list. The biography consists of a title and a paragraph element.
-
-![main](./screenshots/main-sections.png)
-
-The project section has 4 cards each representing a project. Hovering over each of them will change the opacity. I was unable to make a larger flex box. 
+Each tile consists of a section, header, and img. Each section tile is a clickable link to the image file as there is no body of work to show off. 
+The section header is an aside element.
 
 ## footer
+The footer contains working links to the authors LinkedIn, Github, and email account. A telephone number has been listed but is not linked to being called.
 
-![footer](./screenshots/contact-info.png)
+## Media Properties
 
-Links are provided each of them can link to an external website. The phone numberr is not currently linked.
+When hover over each tile the image will shift to half opacity.
+
+## flex properties.
+
+This page is able to be viewed on all screens properly as it flexs into column positioning at 768 pixels
+
+![Flexed-page](.\assets\screenshots\flex.PNG)
+
+## Giving credit
+
+Thanks to Gabe Sowa for bouncing ideas around. 
+Thanks to joe for providing an exmaple of a working tile template. 
