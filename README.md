@@ -1,3 +1,13 @@
+## Github Repo
+
+https://github.com/hoeferm2/module-2-challenge
+
+## Deployed site
+
+https://hoeferm2.github.io/module-2-challenge/
+
+
+
 ## Introduction
 
 For this project we were tasked with creating a portfolio website from scratch.
@@ -9,7 +19,7 @@ The navigation bar contains
     -author name
     -3 working links that connect to the ares of the page
 
-![Navigation Bar](.\assets\screenshots\nav.png)
+![Navigation Bar](module-2-challenge\assets\screenshots\nav.png)
 ## header/Banner image
 
 The header is a banner image.
@@ -22,8 +32,8 @@ The section header is an aside element. The content is a paragraph element.
 The large tile is in its own section. It consists of a section tag with a header and img nested in it. 
 The section header is an aside element.
 
-![Website-part-1](.\assets\screenshots\sections.PNG)
-![Website-part-2](.\assets\screenshots\tiles-footer.PNG)
+![Website-part-1](module-2-challenge\assets\screenshots\sections.PNG)
+![Website-part-2](module-2-challenge\assets\screenshots\tiles-footer.PNG)
 
 ## projects (small tiles)
 
