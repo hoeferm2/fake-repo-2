@@ -51,7 +51,7 @@ When hover over each tile the image will shift to half opacity.
 
 This page is able to be viewed on all screens properly as it flexs into column positioning at 768 pixels
 
-![Flexed-page](.\assets\screenshots\flex.PNG)
+![Flexed-page](module-2-challenge\screenshots\flex.PNG)
 
 ## Giving credit
 
