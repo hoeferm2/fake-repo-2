@@ -19,7 +19,7 @@ The navigation bar contains
     -author name
     -3 working links that connect to the ares of the page
 
-![Navigation Bar](.\module-2-challenge\assets\screenshots\nav.png)
+![Navigation Bar](./screenshots/nav.jpg)
 ## header/Banner image
 
 The header is a banner image.
@@ -32,8 +32,8 @@ The section header is an aside element. The content is a paragraph element.
 The large tile is in its own section. It consists of a section tag with a header and img nested in it. 
 The section header is an aside element.
 
-![Website-part-1](module-2-challenge/assets/screenshots/sections.PNG)
-![Website-part-2](./module-2-challenge/assets/screenshots/tiles-footer.PNG)
+![Website-part-1](./screenshots/sections.jpg)
+![Website-part-2](./screenshots/tiles-footer.jpg)
 
 ## projects (small tiles)
 
@@ -51,7 +51,7 @@ When hover over each tile the image will shift to half opacity.
 
 This page is able to be viewed on all screens properly as it flexs into column positioning at 768 pixels
 
-![Flexed-page](module-2-challenge\screenshots\flex.PNG)
+![Flexed-page](./screenshots/flex.jpg)
 
 ## Giving credit
 
